@@ -15,7 +15,7 @@ Made by **angelstance**.
    ```
    X:\Steam\steamapps\common\Blender\5.1\scripts\addons_core
    ```
-   The path varies depending on your Blender version and installation path.
+   The path varies depending on your Blender version and installation path..
 3. Enable **Import-Export: Granny Runtime Importer/Exporter** in **Edit > Preferences > Add-ons**.
 
 ---
@@ -26,25 +26,13 @@ Made by **angelstance**.
 
 **File > Import > Granny 3D (.gr2)**
 
-Select one or more `.gr2` files. Meshes, UVs, materials, normals, and skeletons are imported automatically.
+Select one or more `.gr2` files. Mesh geometry, UVs, materials, and normals are imported automatically.
 
 ### Export
 
 **File > Export > Granny 3D (.gr2)**
 
 Exports selected mesh objects (or all scene meshes if nothing is selected) to a single `.gr2` file.
-
----
-
-## Granny DLL
-
-The addon requires `granny2_x64.dll` to function. It is not included in this repository.
-
-The DLL is resolved in this order:
-
-1. The path set in **Edit > Preferences > Add-ons > Granny Runtime Importer/Exporter** (Granny DLL field)
-2. The `GRANNY_DLL` environment variable
-3. `granny2_x64.dll` placed in the same folder as the addon files
 
 ---
 
